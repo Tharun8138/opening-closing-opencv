@@ -70,7 +70,7 @@ import matplotlib.pyplot as plt
 
 img = np.zeros((400, 600), dtype=np.uint8)
 
-cv2.putText(img, "SAI PRASATH", (80, 200),
+cv2.putText(img, "THARUN", (80, 200),
             cv2.FONT_HERSHEY_SIMPLEX, 1.5, 255, 3)
 
 kernel = np.ones((5, 5), np.uint8)
